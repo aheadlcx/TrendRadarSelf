@@ -140,7 +140,17 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+      
+   - id: "lbj-x"
+      name: "詹姆斯推特"
+      url: "https://rsshub.app/twitter/user/KingJames"
+      max_age_days: 7    # 覆盖全局，保留 7 天
 
+  - id: "meixi-x"
+      name: "梅西推特"
+      url: "https://rsshub.app/twitter/user/imessi"
+      max_age_days: 7    # 覆盖全局，保留 7 天
+    
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
